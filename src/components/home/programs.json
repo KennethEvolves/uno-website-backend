@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_programs",
+  "info": {
+    "displayName": "Programs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "academic_programs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::academic-program.academic-program"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_academic_program_work_fields",
+  "info": {
+    "displayName": "WorkField"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "employmentAreas": {
+      "type": "component",
+      "component": "shared.text-item",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

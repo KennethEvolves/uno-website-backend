@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_academic_program_details",
+  "info": {
+    "displayName": "Details"
+  },
+  "options": {},
+  "attributes": {
+    "modality": {
+      "type": "component",
+      "component": "shared.label-value",
+      "repeatable": false
+    },
+    "duration": {
+      "type": "component",
+      "component": "shared.label-value",
+      "repeatable": false
+    },
+    "cycle": {
+      "type": "component",
+      "component": "shared.label-value",
+      "repeatable": false
+    },
+    "location": {
+      "type": "component",
+      "component": "shared.label-value",
+      "repeatable": false
+    },
+    "imageHero": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

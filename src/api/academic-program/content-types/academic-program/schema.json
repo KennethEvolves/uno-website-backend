@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academic_programs",
+  "info": {
+    "singularName": "academic-program",
+    "pluralName": "academic-programs",
+    "displayName": "Academic Program"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "licenciaturas",
+        "posgrados"
+      ]
+    },
+    "key": {
+      "type": "integer"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "imageCover": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "details": {
+      "type": "component",
+      "component": "academic-program.details",
+      "repeatable": false
+    },
+    "objective": {
+      "type": "component",
+      "component": "academic-program.objective",
+      "repeatable": false
+    },
+    "graduateProfile": {
+      "type": "component",
+      "component": "academic-program.graduate-profile",
+      "repeatable": false
+    },
+    "workField": {
+      "type": "component",
+      "component": "academic-program.work-field",
+      "repeatable": false
+    }
+  }
+}

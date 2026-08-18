@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_label_values",
+  "info": {
+    "displayName": "LabelValue"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "text"
+    },
+    "iconName": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

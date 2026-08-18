@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_academic_program_graduate_profiles",
+  "info": {
+    "displayName": "GraduateProfile"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "knowledge": {
+      "type": "component",
+      "component": "shared.text-item",
+      "repeatable": true
+    },
+    "skills": {
+      "type": "component",
+      "component": "shared.text-item",
+      "repeatable": true
+    },
+    "attitudes": {
+      "type": "component",
+      "component": "shared.text-item",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}
