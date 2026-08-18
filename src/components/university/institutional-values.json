@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_university_institutional_values",
+  "info": {
+    "displayName": "InstitutionalValues"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "value": {
+      "type": "component",
+      "component": "shared.text-item",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

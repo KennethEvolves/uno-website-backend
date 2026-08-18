@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_pages",
+  "info": {
+    "singularName": "about-us-page",
+    "pluralName": "about-us-pages",
+    "displayName": "About Us Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "header": {
+      "type": "component",
+      "component": "shared.page-header",
+      "repeatable": false
+    },
+    "missionVision": {
+      "type": "component",
+      "component": "university.mission-vision",
+      "repeatable": false
+    },
+    "values": {
+      "type": "component",
+      "component": "university.institutional-values",
+      "repeatable": false
+    },
+    "directory": {
+      "type": "component",
+      "component": "university.directory-section",
+      "repeatable": false
+    },
+    "history": {
+      "type": "component",
+      "component": "university.history",
+      "repeatable": false
+    },
+    "rectors": {
+      "type": "component",
+      "component": "university.historical-rectors-section",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_university_rectors",
+  "info": {
+    "displayName": "Rectors"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

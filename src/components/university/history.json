@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_university_histories",
+  "info": {
+    "displayName": "History"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

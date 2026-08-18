@@ -29,8 +29,10 @@
     "type": {
       "type": "enumeration",
       "enum": [
-        "licenciaturas",
-        "posgrados"
+        "licenciatura",
+        "posgrado",
+        "doctorado",
+        "maestría"
       ]
     },
     "key": {

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rectors",
+  "info": {
+    "singularName": "rector",
+    "pluralName": "rectors",
+    "displayName": "Rector"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "order": {
+      "type": "integer"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "biography": {
+      "type": "richtext"
+    }
+  }
+}

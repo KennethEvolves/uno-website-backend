@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_university_mission_visions",
+  "info": {
+    "displayName": "MissionVision"
+  },
+  "options": {},
+  "attributes": {
+    "mission": {
+      "type": "richtext"
+    },
+    "vision": {
+      "type": "richtext"
+    },
+    "imageMission": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "imageVision": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}

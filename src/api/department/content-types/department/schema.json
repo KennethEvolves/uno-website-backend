@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "departments",
+  "info": {
+    "singularName": "department",
+    "pluralName": "departments",
+    "displayName": "Department"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "order": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "staff_members": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::staff-member.staff-member",
+      "mappedBy": "department"
+    }
+  }
+}

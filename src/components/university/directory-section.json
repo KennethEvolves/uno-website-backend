@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_university_directory_sections",
+  "info": {
+    "displayName": "DirectorySection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "departments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::department.department"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}
