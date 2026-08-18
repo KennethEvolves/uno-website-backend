@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_researcher_researchers",
+  "info": {
+    "displayName": "Researchers"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "researchers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::researcher.researcher"
+    }
+  },
+  "config": {}
+}

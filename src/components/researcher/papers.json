@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_researcher_papers",
+  "info": {
+    "displayName": "Papers"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "artículo",
+        "capítulo de libro"
+      ]
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

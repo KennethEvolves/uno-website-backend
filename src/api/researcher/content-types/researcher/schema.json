@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "researchers",
+  "info": {
+    "singularName": "researcher",
+    "pluralName": "researchers",
+    "displayName": " Researcher"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "fullName"
+    },
+    "profession": {
+      "type": "string"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "semblance": {
+      "type": "text"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "researchLines": {
+      "type": "component",
+      "component": "shared.text-item",
+      "repeatable": true
+    },
+    "orcid": {
+      "type": "string"
+    },
+    "scholar": {
+      "type": "string"
+    },
+    "papers": {
+      "type": "component",
+      "component": "researcher.papers",
+      "repeatable": true
+    }
+  }
+}
