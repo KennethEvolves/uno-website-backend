@@ -45,6 +45,9 @@
       "component": "shared.text-item",
       "repeatable": true
     },
+    "email": {
+      "type": "string"
+    },
     "orcid": {
       "type": "string"
     },

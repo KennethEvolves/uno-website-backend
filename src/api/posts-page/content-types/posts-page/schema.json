@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "posts_pages",
+  "info": {
+    "singularName": "posts-page",
+    "pluralName": "posts-pages",
+    "displayName": "Posts Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "header": {
+      "type": "component",
+      "component": "shared.page-header",
+      "repeatable": false
+    }
+  }
+}

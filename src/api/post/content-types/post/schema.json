@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "noticia",
+        "convocatoria",
+        "evento"
+      ]
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "publishDate": {
+      "type": "date"
+    },
+    "autor": {
+      "type": "string"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "newsDetails": {
+      "type": "component",
+      "component": "post.news-details",
+      "repeatable": false
+    },
+    "callsDetails": {
+      "type": "component",
+      "component": "post.call-details",
+      "repeatable": false
+    },
+    "eventsDetails": {
+      "type": "component",
+      "component": "post.event-details",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_post_event_details",
+  "info": {
+    "displayName": "EventDetails"
+  },
+  "options": {},
+  "attributes": {
+    "startDate": {
+      "type": "datetime"
+    },
+    "endDate": {
+      "type": "datetime"
+    },
+    "location": {
+      "type": "string"
+    },
+    "isVirtual": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

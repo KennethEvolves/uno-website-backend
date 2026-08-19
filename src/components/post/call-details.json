@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_post_call_details",
+  "info": {
+    "displayName": "CallDetails"
+  },
+  "options": {},
+  "attributes": {
+    "expirationDate": {
+      "type": "date"
+    },
+    "attachedFile": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    },
+    "steps": {
+      "type": "component",
+      "component": "post.steps",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
