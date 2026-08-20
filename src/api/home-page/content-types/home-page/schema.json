@@ -19,7 +19,9 @@
     "sections": {
       "type": "dynamiczone",
       "components": [
-        "home.programs"
+        "home.programs",
+        "home.home-header",
+        "shared.banner"
       ]
     }
   }
