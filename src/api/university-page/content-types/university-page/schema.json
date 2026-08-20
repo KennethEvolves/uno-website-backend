@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "university_pages",
+  "info": {
+    "singularName": "university-page",
+    "pluralName": "university-pages",
+    "displayName": "University Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "header": {
+      "type": "component",
+      "component": "shared.page-header",
+      "repeatable": false
+    },
+    "cards": {
+      "type": "component",
+      "component": "shared.card",
+      "repeatable": true
+    }
+  }
+}
