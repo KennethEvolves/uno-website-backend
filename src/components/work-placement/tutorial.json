@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_work_placement_tutorials",
+  "info": {
+    "displayName": "Tutorial"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "videoTutorial": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files",
+        "videos"
+      ]
+    }
+  },
+  "config": {}
+}

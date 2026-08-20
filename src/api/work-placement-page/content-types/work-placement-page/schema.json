@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "work_placement_pages",
+  "info": {
+    "singularName": "work-placement-page",
+    "pluralName": "work-placement-pages",
+    "displayName": "Work Placement Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "header": {
+      "type": "component",
+      "component": "shared.page-header",
+      "repeatable": false
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "documentation": {
+      "type": "component",
+      "component": "work-placement.documentation",
+      "repeatable": false
+    },
+    "videoTutorial": {
+      "type": "component",
+      "component": "work-placement.tutorial",
+      "repeatable": false
+    },
+    "contact": {
+      "type": "richtext"
+    }
+  }
+}

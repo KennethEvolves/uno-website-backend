@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_work_placement_documentations",
+  "info": {
+    "displayName": "Documentation"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "filesList": {
+      "type": "component",
+      "component": "shared.document-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

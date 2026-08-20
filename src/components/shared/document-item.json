@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_document_items",
+  "info": {
+    "displayName": "DocumentItem"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "url": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

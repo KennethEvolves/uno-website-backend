@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "social_service_pages",
+  "info": {
+    "singularName": "social-service-page",
+    "pluralName": "social-service-pages",
+    "displayName": "Social Service Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "header": {
+      "type": "component",
+      "component": "shared.page-header",
+      "repeatable": false
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "calendar": {
+      "type": "component",
+      "component": "work-placement.documentation",
+      "repeatable": false
+    },
+    "formats": {
+      "type": "component",
+      "component": "work-placement.documentation",
+      "repeatable": false
+    }
+  }
+}
