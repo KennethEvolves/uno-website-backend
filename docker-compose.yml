@@ -1,8 +1,10 @@
 services:
   strapi:
     container_name: strapi
-    build: .
-    image: strapi:latest
+    build: 
+      context: .
+      dockerfile: dockerfile.dev
+    image: strapi:dev-local
     restart: unless-stopped
     env_file: .env
     volumes:
